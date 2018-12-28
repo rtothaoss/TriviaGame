@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
+
+    <title>90's Trivia Game</title>
+  </head>
+  <body>
+    <h1>90's Trivia Game!</h1>
+
+    <form id = "quiz" name = "quiz">
+
+    <p>What mob movie starred Ray Liotta, Joe Pesci, and Robert De Niro?</p>
+    <input type = "radio" id = "multiple" name = "question1" value="Goodfellas"> Goodfellas<br>
+    <input type = "radio" id = "multiple" name = "question1" value="Heat"> Heat<br>
+    <input type = "radio" id = "multiple" name = "question1" value="A Bronx Tale"> A Bronx Tale<br>
+    <input type = "radio" id = "multiple" name = "question1" value="Home Alone"> Home Alone<br>
+
+    <p>Which children show featured characters with the names Tommy, Zack, Kimberly, Billy, and Trini?</p>
+    <input type = "radio" id = "multiple" name = "question2" value="The Mighty Morphin Power Rangers"> The Mighty Morphin Power Rangers<br>
+    <input type = "radio" id = "multiple" name = "question2" value="Teenage Mutant Ninja Turtles"> Teenage Mutant Ninja Turtles<br>
+    <input type = "radio" id = "multiple" name = "question2" value="Rugrats"> Rugrats<br>
+    <input type = "radio" id = "multiple" name = "question2" value="Recess"> Recess<br>
+
+    <p>The line, "You can't handle the truth!", was said in what movie?</p>
+    <input type = "radio" id = "multiple" name = "question3" value="A Few Good Men"> A Few Good Men<br>
+    <input type = "radio" id = "multiple" name = "question3" value="The Departed"> The Departed<br>
+    <input type = "radio" id = "multiple" name = "question3" value="Mars Attacks!"> Mars Attacks!<br>
+    <input type = "radio" id = "multiple" name = "question3" value="As Good As It Gets"> As Good As It Gets<br>
+
+    <p>Mr. Feeny was the teacher in which popular TV show?</p>
+    <input type = "radio" id = "multiple" name = "question4" value="Boy Meets World"> Boy Meets World<br>
+    <input type = "radio" id = "multiple" name = "question4" value="Saved By the Bell"> Saved By the Bell<br>
+    <input type = "radio" id = "multiple" name = "question4" value="Fresh Prince of Bel Air"> Fresh Prince of Bel Air<br>
+    <input type = "radio" id = "multiple" name = "question4" value="Beverly Hills, 90210"> Beverly Hills, 90210<br>
+
+    <p>Which of the folllowing is not a super mario kart character?</p>
+    <input type = "radio" id = "multiple" name = "question5" value="Crash"> Crash<br>
+    <input type = "radio" id = "multiple" name = "question5" value="Luigi"> Luigi<br>
+    <input type = "radio" id = "multiple" name = "question5" value="Wario"> Wario<br>
+    <input type = "radio" id = "multiple" name = "question5" value="Toad"> Toad<br>
+
+    <p>What toy let you take care of a digital pet?</p>
+    <input type = "radio" id = "multiple" name = "question6" value="Tamagotchi"> Tamagotchi<br>
+    <input type = "radio" id = "multiple" name = "question6" value="Bop It"> Bop It<br>
+    <input type = "radio" id = "multiple" name = "question6" value="Talk Boy"> Talk Boy<br>
+    <input type = "radio" id = "multiple" name = "question6" value="Beanie Babies"> Beanie Babies<br>
+
+    <p>What sesame street character was the hottest toy in 1996?</p>
+    <input type = "radio" id = "multiple" name = "question7" value="Elmo"> Elmo<br> 
+    <input type = "radio" id = "multiple" name = "question7" value="Big Bird"> Big Bird<br> 
+    <input type = "radio" id = "multiple" name = "question7" value="Ernie"> Ernie<br> 
+    <input type = "radio" id = "multiple" name = "question7" value="Count von Count"> Count von Count<br> 
+
+    <p>What show starred Tim Allen?</p>
+    <input type = "radio" id = "multiple" name = "question8" value="Home Improvement"> Home Improvement<br> 
+    <input type = "radio" id = "multiple" name = "question8" value="Roseanne"> Roseanne<br> 
+    <input type = "radio" id = "multiple" name = "question8" value="Friends"> Friends<br> 
+    <input type = "radio" id = "multiple" name = "question8" value="Seinfeld"> Seinfeld<br> 
+
+    <input id = "button" type = "button" value = "I'm Finished!" onclick = "check();">
+
+    </form>
+
+    <div id = "after_submit">
+        <p id="number_correct">All Done!</p>
+        <p id="number_incorrect"></p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
