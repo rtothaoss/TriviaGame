@@ -1,13 +1,29 @@
 $(document).ready(function(){
+    var count = 30;
+
+// Start Button
+
     $('#start_button').click(function() {
         $(this).hide();
+        counter = setInterval(timer, 1000); 
         $('#quiz').css("visibility", "visible");
     });  
+    
+// Timer Logic
+    
+    function timer(){
+    count--;
+    if (count === 0) {
+     clearInterval(counter);
+     check();
+    }
+    
+     $("#timer").html("Time remaining: " + "00:" + count + " secs");
+    }
+
 });
 
-
-
-
+// Check Function
 
 function check() {
     
@@ -22,6 +38,7 @@ function check() {
     var correct = 0;
     var incorrect = 0;
     var unanswered = 0;
+    
 
     console.log(question1);
     console.log(question2);
@@ -143,7 +160,8 @@ function check() {
     $("#number_incorrect").text("Number Incorrect: " + incorrect);
     $("#unanswered").text("Number Unanswered: " + unanswered);
 
-
+    clearInterval(counter);
 }
+
 
 
