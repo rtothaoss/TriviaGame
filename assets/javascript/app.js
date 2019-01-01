@@ -17,8 +17,8 @@ $(document).ready(function(){
      clearInterval(counter);
      check();
     }
-    
-     $("#timer").html("Time remaining: " + "00:" + count + " secs");
+    // $('#timer').css("font-weight", "bold")
+    $("#timer").html("Time remaining: " + "00:" + count + " secs");
     }
 
 });
@@ -161,6 +161,11 @@ function check() {
     $("#unanswered").text("Number Unanswered: " + unanswered);
 
     clearInterval(counter);
+    $('#timer').css("visibility", "hidden")
+    $('#quiz').css("visibility", "hidden");
+    $('#quiz').css("position", "absolute");
+    // $('#quiz').css("top", "50px");
+
 }
 
 

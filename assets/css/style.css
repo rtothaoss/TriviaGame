@@ -5,3 +5,30 @@
 #quiz {
     visibility: hidden;
 }
+
+h1,
+p {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+body {
+    background: black;
+}
+
+.jumbotron {
+    min-height: 960px;
+}
+
+#timer {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
