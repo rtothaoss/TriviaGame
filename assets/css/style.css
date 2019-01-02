@@ -21,6 +21,8 @@ p {
     font-weight: bold;
     margin-top: 50px;
     font-size: 32px;
+    /* background: yellow;
+    color: black; */
 }
 
 body {
@@ -48,4 +50,10 @@ label.radio-inline {
     margin: 0px 0px;
     position: relative;
     top: 32%;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    background: yellow;
+    color: black;
 }

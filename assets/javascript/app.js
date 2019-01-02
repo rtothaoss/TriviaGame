@@ -165,6 +165,7 @@ function check() {
     $("#unanswered").text("Number Unanswered: " + unanswered);
 
     clearInterval(counter);
+
     $('#timer').css("visibility", "hidden")
     $('#quiz').css("visibility", "hidden");
     $('#quiz').css("position", "absolute");
