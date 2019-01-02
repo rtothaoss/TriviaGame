@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var count = 30;
+    var count = 45;
 
 // Start Button
 

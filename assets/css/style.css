@@ -23,6 +23,7 @@ p {
     font-size: 32px;
     /* background: yellow;
     color: black; */
+
 }
 
 body {
@@ -34,6 +35,7 @@ body {
     /* font-weight: bold; */
     margin-bottom: 20px;
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .jumbotron {
@@ -54,6 +56,6 @@ label.radio-inline {
 
 h1 {
     font-family: 'Permanent Marker', cursive;
-    background: yellow;
-    color: black;
+    /* background: yellow;
+    color: black; */
 }
