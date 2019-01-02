@@ -8,8 +8,10 @@
 
 h1,
 p {
+    color: white;
     text-align: center;
 }
+
 
 .container {
     text-align: center;
@@ -17,18 +19,33 @@ p {
 
 p {
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 50px;
+    font-size: 32px;
 }
 
 body {
-    background: black;
-}
-
-.jumbotron {
-    min-height: 960px;
+    background-image: url("https://thehungryjpeg.com/img/products/665fba97309d51840b0760e91230e4505f3a5cfc.jpg");
 }
 
 #timer {
-    font-weight: bold;
+    color: white;
+    /* font-weight: bold; */
     margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.jumbotron {
+    background: purple;
+}
+
+label.radio-inline {
+    color: plum;
+    margin: 0 10px;
+}
+
+.donefont {
+    font-size: 60px;
+    margin: 0px 0px;
+    position: relative;
+    top: 32%;
 }
