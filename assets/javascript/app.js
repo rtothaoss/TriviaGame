@@ -153,6 +153,10 @@ function check() {
 
     // document.getElementById("after_submit").style.visibility = "visible";
     $("#after_submit").css("visibility", "visible");
+    
+    // Scrolls page back up to the top
+    window.scrollTo(0, 0);
+
 
 // Finished Button 
     
