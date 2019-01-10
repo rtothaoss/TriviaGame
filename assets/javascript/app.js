@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var count = 45;
 
-// Start Button
+// Start Button  
 
     $('#start_button').click(function() {
         $(this).hide();
@@ -171,6 +171,9 @@ function check() {
     $('#quiz').css("position", "absolute");
     // $('#quiz').css("top", "50px");
 
+
+    var audio = new Audio('https://www.redringtones.com/wp-content/uploads/2016/10/fresh-prince-of-bel-air-theme-song.mp3');
+    audio.play();
 }
 
 
