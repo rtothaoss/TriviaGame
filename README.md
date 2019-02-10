@@ -1,4 +1,5 @@
 # TriviaGame
+Deployed Page: https://rtothaoss.github.io/TriviaGame/
 
 This is a trivia game where you will have quizzed over topics that occured in the 90's.
 
